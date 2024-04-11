@@ -14,7 +14,7 @@
                                 Open
                             </h5>
                             <span class="font-semibold text-xl text-blueGray-700">
-                                {{ number_format($taskCountsByStatus['open'] ?? 1) }}
+                                {{ number_format($taskCountsByStatus['open'] ?? 2) }}
                             </span>
                         </div>
                         {{-- Status "close" --}}
