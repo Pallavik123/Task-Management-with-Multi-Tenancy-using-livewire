@@ -20,8 +20,8 @@ We can implement Kanban Feature that will  provides a clear visualization of the
 
    
 ## Deployment Steps
-* Clone the project repository by running the command below 
-     git clone https://github.com/Pallavik123/Task-Management-with-MultiTenancy-using-livewire.git.
+* Clone the project repository by running the command below: 
+            git clone https://github.com/Pallavik123/Task-Management-with-MultiTenancy-using-livewire.git.
 * After cloning, run: 
     composer install
 * Duplicate .env.example and rename it .env
