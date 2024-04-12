@@ -12,7 +12,7 @@
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 
-Summary
+## Summary
 	In this system of Task Manager is a dynamic web application used for organizations and businesses for handling their efficient task management at the time of  maintaining data and security through multi-tenancy architecture.With its secure architecture, customizable features, and real-time collaboration capabilities,It enhance  to streamline their task workflows while maintaining data privacy and security .
 
 
