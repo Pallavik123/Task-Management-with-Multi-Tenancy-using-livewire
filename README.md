@@ -23,12 +23,10 @@ We can implement Kanban Feature that will  provides a clear visualization of the
 * Clone the project repository by running the command below:  git clone https://github.com/Pallavik123/Task-Management-with-MultiTenancy-using-livewire.git.
 * After cloning, run:  composer install
 * Duplicate .env.example and rename it .env
-	Then run:
-	php artisan key:generate
+* Then run: php artisan key:generate
 * Be sure to fill in your database details in your .env file before running the migrations:
 	php artisan migrate
-* And finally, start the application:
-		php artisan serve
+* And finally, start the application: php artisan serve
 and visit http://localhost:8000 to see the application in action.  
 
 
