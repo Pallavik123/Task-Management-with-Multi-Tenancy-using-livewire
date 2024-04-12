@@ -1,16 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
 
 ## Summary
 
@@ -29,6 +16,24 @@ In this system of Task Manager is a dynamic web application used for organizatio
 ## Future Scope
 We can implement Kanban Feature that will  provides a clear visualization of the workflow, allowing team members to identify prioritize tasks, and optimize the flow of work.
 
+
+
+   
+## Deployment Steps
+* Clone the project repository by running the command below 
+     git clone https://github.com/Pallavik123/Task-Management-with-MultiTenancy-using-livewire.git.
+* After cloning, run: 
+    composer install
+* Duplicate .env.example and rename it .env
+	Then run:
+	php artisan key:generate
+
+## Prerequisites
+* Be sure to fill in your database details in your .env file before running the migrations:
+	php artisan migrate
+* And finally, start the application:
+		php artisan serve
+and visit http://localhost:8000 to see the application in action.  
 
 
 ## Security Vulnerabilities
