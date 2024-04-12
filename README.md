@@ -19,14 +19,14 @@ In this system of Task Manager is a dynamic web application used for organizatio
 
 
 
-## Features:
+## Features
 * Multi-Tenancy.
 * Import CSV files into database CRUDs .
 * Adds ability for users to register in the system .
 * Global Search.
 * This  system that works as todo list but also can be viewed in a calendar mode. 
 
-## Future Scope:
+## Future Scope
 We can implement Kanban Feature that will  provides a clear visualization of the workflow, allowing team members to identify prioritize tasks, and optimize the flow of work.
 
 
