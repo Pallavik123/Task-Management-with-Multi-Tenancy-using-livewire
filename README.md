@@ -21,7 +21,7 @@ In this system of Task Manager is a dynamic web application used for organizatio
 
 ## Features:
 * Multi-Tenancy.
-* Import CSV files into any of your database CRUDs .
+* Import CSV files into database CRUDs .
 * Adds ability for users to register in the system .
 * Global Search.
 * This  system that works as todo list but also can be viewed in a calendar mode. 
