@@ -66,6 +66,7 @@ class Task extends Model implements HasMedia
         return $date->format('Y-m-d H:i:s');
     }
 
+    
     public function status()
     {
         return $this->belongsTo(TaskStatus::class);

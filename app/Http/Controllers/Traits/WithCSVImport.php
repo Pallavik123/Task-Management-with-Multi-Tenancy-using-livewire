@@ -107,7 +107,7 @@ trait WithCSVImport
             return;
         }
 
-        $entry['owner_id'] = auth()->id();
+        //$entry['owner_id'] = auth()->id();
     }
 
     private function hasOwnerId(): bool

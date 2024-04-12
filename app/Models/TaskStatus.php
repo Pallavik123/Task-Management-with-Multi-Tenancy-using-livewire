@@ -35,6 +35,14 @@ class TaskStatus extends Model
         'updated_at',
         'deleted_at',
     ];
+    public function tasks()
+    {
+        return $this->hasMany(Task::class, 'status_id');
+    }
+    public function owner()
+    {
+        return $this->belongsTo(User::class, 'owner_id');
+    }
 
     protected function serializeDate(DateTimeInterface $date)
     {
